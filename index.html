@@ -15,32 +15,22 @@
 </head>
 
 <body>
-    <h1 class="heading">
-        Quiz time!
-    </h1>
-
-    <div class="game-area">
-        <div class="controls-area">
-            <button class="btn btn--big btn--green">
-                
-            </button>
-            <button class="btn btn--big btn--blue">
-               
-            </button>
+    <div class="container">
+        <div id="question-container" class="hide">
+            <div id="question">Question</div>
+            <div id="answer-buttons" class="btn-grid">
+                <button class="btn">Answer1</button>
+                <button class="btn">Answer2</button>
+                <button class="btn">Answer3</button>
+                <button class="btn">Answer4</button>
+            </div>
         </div>
-        <div class="question-area">
-            <span id="question">What is...</span>
-            <span>:</span>
-            <p class="answer-message">Enter Answer:</p>
-            <input id="answer-box" type="number">
+        <div class="game-controls">
+            <button id="control-start-btn" class="control-btn">Start</button>
+            <button id="control-forward-btn" class="control-btn">Forward</button>
         </div>
-        <button class="btn btn--gray">Submit Answer</button>
     </div>
-
-    <div class="score-tracker">
-        <p class="scores">Correct Answers <span id="score">0</span></p>
-        <p class="scores">Incorrect Answers <span id="incorrect">0</span></p>
-    </div>
+    
 
     <script src="assets/js/script.js"></script>
 </body>
