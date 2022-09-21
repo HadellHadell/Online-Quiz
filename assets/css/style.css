@@ -46,7 +46,19 @@ body {
     border: 2px solid darkslategray;
     margin: 3%;
 }
+.control-btn {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+.control-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .control-btn:hover {
-    border-style: double;
-    border: 2px;
+    box-shadow: 0 0 50px 15px;
+}
+.hide {
+    display: none;
 }
