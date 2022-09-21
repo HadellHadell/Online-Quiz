@@ -1,1 +1,17 @@
-let questions  = ['What year did Johann Sebastian Bach die?', 'In which season of the year does snow fall usually?', 'How many legs does a spider have?', 'Which year did the second world war end?', 'Who was the first persident of the United States?', 'What year was queen Elisabeth II born?', 'What is 5 x 5?', 'Who put the first step on the moon?']
+const btnA = document.getElementById('btn-a');
+const btnB = document.getElementById('btn-b');
+const btnC = document.getElementById('btn-c');
+const btnD = document.getElementById('btn-d');
+
+btnA.addEventListener('click', function(){
+    console.log("The 'A' button was selected")
+});
+btnB.addEventListener('click', function(){
+    console.log("The 'B' button was selected")
+});
+btnC.addEventListener('click', function(){
+    console.log("The 'C' button was selected")
+});
+btnD.addEventListener('click', function(){
+    console.log("The 'D' button was selected")
+});
